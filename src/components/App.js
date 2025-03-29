@@ -13,7 +13,7 @@ const onInput = (e) => {
     setTasks((prev) => [...prev, input]);
     setInput("");
   };
-  rconst onDelet = (ind) => {
+  const onDelet = (ind) => {
     const newTasks = [...tasks];
     newTasks.splice(ind, 1);
     setTasks(newTasks);
